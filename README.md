@@ -13,8 +13,10 @@ A clean, modular calculator built using Python packages.
 - Add input validation for floats
 - Convert to REST API using FastAPI
 - Store results in a database
-- 
+
+
 ### How to Run
 ```bash
 python run.py
+
 
