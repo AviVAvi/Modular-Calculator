@@ -1,22 +1,31 @@
-# Modular Calculator (Python)
+# Modular Calculator CLI (Python)
 
-A clean, modular calculator built using Python packages.
+A clean, modular Python application that supports both interactive and command-line usage.
+Built with professional engineering practices including logging, custom exceptions, and automated tests.
 
 ## Features
-- Addition, subtraction, multiplication, division, power
-- Modular project structure
-- Custom exception handling
-- Config separation
-- File-based result storage
+- Supports +, -, *, /, ** operations
+- Works in interactive mode or via CLI arguments
+- Custom exception handling for invalid operations and inputs
+- Logging for application flow and errors
+- Automated unit tests
+- Clean modular folder structure
 
-## Future Improvements
-- Add input validation for floats
-- Convert to REST API using FastAPI
-- Store results in a database
-
-
-### How to Run
+## Run (Interactive Mode)
 ```bash
 python run.py
 
+Run (CLI Mode)
+python run.py 10 5 +
+python run.py 2 3 **
 
+Run Tests
+python -m tests.test_math_ops
+
+Project Structure
+app/
+  utils/
+  config/
+  exceptions.py
+tests/
+run.py
