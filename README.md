@@ -12,20 +12,27 @@ Built with professional engineering practices including logging, custom exceptio
 - Clean modular folder structure
 
 ## Run (Interactive Mode)
-```bash
+```md
 python run.py
+```
 
 Run (CLI Mode)
+```bash
 python run.py 10 5 +
 python run.py 2 3 **
+```
 
 Run Tests
+```bash
 python -m tests.test_math_ops
+```
 
 Project Structure
+```bash
 app/
   utils/
   config/
   exceptions.py
 tests/
 run.py
+```
